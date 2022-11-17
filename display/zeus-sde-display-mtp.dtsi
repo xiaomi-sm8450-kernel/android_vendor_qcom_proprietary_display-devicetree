@@ -6,7 +6,7 @@
 	qcom,mdss-dsi-bl-min-level = <4>;
 	qcom,mdss-dsi-bl-max-level = <2047>;
 	qcom,mdss-brightness-max-level = <8191>;
-	qcom,mdss-brightness-init-level = <1300>;
+	qcom,mdss-brightness-init-level = <804>;
 	qcom,mdss-dsi-bl-inverted-dbv;
 	qcom,platform-reset-gpio = <&tlmm 0 0>;
 };
