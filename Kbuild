@@ -7,12 +7,7 @@ dtbo-$(CONFIG_ARCH_WAIPIO) += display/waipio-sde.dtbo \
 		display/waipio-sde-display-cdp-overlay.dtbo \
 		display/waipio-sde-display-qrd-overlay.dtbo \
 		display/zeus-sde-display-mtp-overlay.dtbo \
-		display/thor-sde-display-mtp-overlay.dtbo \
-		display/loki-sde-display-mtp-overlay.dtbo \
-		display/cupid-sde-display-mtp-overlay.dtbo \
-		display/ingres-sde-display-mtp-overlay.dtbo \
-		display/zizhan-sde-display-mtp-overlay.dtbo \
-		display/diting-sde-display-mtp-overlay.dtbo
+		display/cupid-sde-display-mtp-overlay.dtbo
 else
 dtbo-$(CONFIG_ARCH_WAIPIO) += display/trustedvm-waipio-sde-display-mtp-overlay.dtbo \
 		display/trustedvm-waipio-sde-display-cdp-overlay.dtbo \
