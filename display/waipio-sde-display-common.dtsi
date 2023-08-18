@@ -1365,6 +1365,12 @@
 			qcom,display-topology = <2 2 1>;
 			qcom,default-topology-index = <0>;
 		};
+		/delete-node/ timing@wqhd_40hz_index_03;
+		/delete-node/ timing@wqhd_30hz_index_04;
+		/delete-node/ timing@wqhd_24hz_index_05;
+		/delete-node/ timing@wqhd_10hz_index_06;
+		/delete-node/ timing@wqhd_1hz_index_07;
+
 	};
 };
 
